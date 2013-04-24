@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Khurram Zaman']
   s.email       = ['khurram.zaman@gmail.com']
-  s.homepage    = 'https://github.com/khurramzaman/ruby-audio-heroku-gem'
+  s.homepage    = 'https://github.com/klangfeld/ruby-audio-heroku-gem'
   s.summary     = 'libsndfile wrapper for ruby that works on heroku'
   s.description = 'ruby-audio-heroku wraps around libsndfile to provide simplified sound reading and writing support to ruby programs. it works on heroku.'
 

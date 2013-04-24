@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Khurram Zaman']
   s.email       = ['khurram.zaman@gmail.com']
-  s.homepage    = 'https://github.com/khurramzaman/ruby-audio-heroku'
+  s.homepage    = 'https://github.com/khurramzaman/ruby-audio-heroku-gem'
   s.summary     = 'libsndfile wrapper for ruby that works on heroku'
   s.description = 'ruby-audio-heroku wraps around libsndfile to provide simplified sound reading and writing support to ruby programs. it works on heroku.'
 
-  s.files         = Dir['ruby-audio-heroku.gemspec', 'README.rdoc', 'LICENSE', 'Rakefile', 'lib/**/*.rb', 'spec/**/*.{rb,opts,wav,mp3}', 'ext/**/*.{c,h,rb}', 'ext/rubyaudio_ext/vendor/libsndfile/{lib,bin,include}/**/*']
+  s.files         = Dir['ruby-audio-heroku-gem.gemspec', 'README.rdoc', 'LICENSE', 'Rakefile', 'lib/**/*.rb', 'spec/**/*.{rb,opts,wav,mp3}', 'ext/**/*.{c,h,rb}', 'ext/rubyaudio_ext/vendor/libsndfile/{lib,bin,include}/**/*']
   s.test_files    = Dir['spec/**/*_spec.rb']
   s.extensions    = Dir["ext/**/extconf.rb"]
 

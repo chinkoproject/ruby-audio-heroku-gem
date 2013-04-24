@@ -1,4 +1,8 @@
-= ruby-audio-heroku
+= ruby-audio-heroku-gem
+
+I simply had merged the DEV Branch into the MASTER to get it working properly
+
+
 
 Gemified release of ruby/audio. ruby-audio-heroku wraps around
 libsndfile[http://www.mega-nerd.com/libsndfile/] to provide simplified sound
@@ -7,9 +11,10 @@ class, which is a subclass of RubyAudio::CSound. RubyAudio::Buffer contains
 sound data and RubyAudio::SoundInfo contains information about the format of a
 sound file.
 
+
 == About This Release
 
-I have made Stephen Augenstein's gem work on heroku.
+Khurramazaman have made Stephen Augenstein's gem work on heroku.
 
 == Installation
 

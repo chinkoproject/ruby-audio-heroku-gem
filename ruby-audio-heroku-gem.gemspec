@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name        = 'ruby-audio-heroku'
+  s.name        = 'ruby-audio-heroku-gem'
   s.version     = '1.6.1'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Khurram Zaman']

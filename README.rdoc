@@ -18,7 +18,7 @@ Khurramazaman have made Stephen Augenstein's gem work on heroku.
 
 == Installation
 
-gem 'ruby-audio-heroku', git: "git://github.com/klangfeld/ruby-audio-heroku.git"
+gem 'ruby-audio-heroku', git: "git://github.com/mediatainment/ruby-audio-heroku.git"
 
 === Prerequisites
 

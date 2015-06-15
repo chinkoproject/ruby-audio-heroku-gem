@@ -12,8 +12,8 @@ else
   sndfile_lib = 'sndfile'
 end
 
-INCLUDE_DIRS = ['vendor/libsndfile/include', '/app/local/include', '/opt/local/include', '/usr/local/include']
-LIB_DIRS = ['vendor/libsndfile/lib', '/app/local/lib', '/opt/local/lib', '/usr/local/lib']
+INCLUDE_DIRS = ['/usr/include', 'vendor/libsndfile/include', '/app/local/include', '/opt/local/include', '/usr/local/include']
+LIB_DIRS = ['/usr/lib', 'vendor/libsndfile/lib', '/app/local/lib', '/opt/local/lib', '/usr/local/lib']
 
 # libsndfile requirements
 find_header 'sndfile.h', *INCLUDE_DIRS

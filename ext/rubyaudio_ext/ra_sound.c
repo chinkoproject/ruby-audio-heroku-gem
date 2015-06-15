@@ -152,7 +152,7 @@ static VALUE ra_sound_init(VALUE self, VALUE source, VALUE mode, VALUE info) {
         SF_VIRTUAL_IO vir_io = {ra_vir_size, ra_vir_seek, ra_vir_read, ra_vir_write, ra_vir_tell};
         snd->snd = sf_open_virtual(&vir_io, snd->mode, sf_info, (void*)source);
     }
-    if(snd->snd == NULL) rb_raise(eRubyAudioError, sf_strerror(snd->snd));
+    if(snd->snd == NULL) rb_raise(eRubyAudioError, "%s", sf_strerror(snd->snd));
     snd->closed = 0;
 
     return self;
